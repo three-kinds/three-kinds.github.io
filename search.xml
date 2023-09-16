@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>软件设计用时的检查清单</title>
+    <title>软件设计的检查清单</title>
     <url>/posts/checklist-for-software-design/</url>
     <content><![CDATA[<ol>
 <li>针对接口编程，而不是针对实现</li>
