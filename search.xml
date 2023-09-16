@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>软件设计用时的检查清单</title>
+    <url>/posts/checklist-for-software-design/</url>
+    <content><![CDATA[<ol>
+<li>针对接口编程，而不是针对实现</li>
+<li>大多数情况下要用松散组合，少数为了某种固定模式或有很大的继承优势时才选择继承</li>
+<li>SRP：单一职责原则，只做一件事，只有一个变化的原因</li>
+<li>OCP：开闭原则，应当对扩展开放、对修改关闭，用替换实体代替直接修改</li>
+<li>LSP：里氏替换原则，组件就必须遵守同一个约定，以便让这些组件可以相互替换</li>
+<li>ISP：接口隔离原则，多个专功能接口好于单个多功能接口，避免不必要的依赖、关系</li>
+<li>DIP：依赖反转原则，高层策略性的代码不应该依赖实现底层细节的代码，应当反过来</li>
+<li>明确模块变化频率，经常变的模块与不经常变的，尽可能分离</li>
+<li>明确业务与非业务逻辑，尽可能分离</li>
+<li>尽可能晚的跨层次组合，组合逻辑要尽可能控制在小的、独立的、甚至可屏蔽的区域内</li>
+<li>明确 简单vs简陋、平衡vs妥协、迭代vs半成品</li>
+</ol>
+]]></content>
+      <categories>
+        <category>软件设计</category>
+      </categories>
+      <tags>
+        <tag>检查清单</tag>
+      </tags>
+  </entry>
+</search>
