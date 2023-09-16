@@ -24,4 +24,44 @@
         <tag>检查清单</tag>
       </tags>
   </entry>
+  <entry>
+    <title>设计模式速查表</title>
+    <url>/posts/checklist-for-design-patterns/</url>
+    <content><![CDATA[<h2 id="创建模式"><a href="#创建模式" class="headerlink" title="创建模式"></a>创建模式</h2><ol>
+<li>FactoryMethod：一个工厂产出一个类型的产品，具体产品可变；Factory method is a creational design pattern which solves the problem of creating product objects without specifying their concrete classes.</li>
+<li>AbstractFactory：一个工厂产出不同的类型的产品，具体产品可变；Abstract Factory is a creational design pattern, which solves the problem of creating entire product families without specifying their concrete classes.</li>
+<li>Builder：选择步骤进行构建，步骤可变；Builder is a creational design pattern that lets you construct complex object step by step.</li>
+<li>Prototype：快速从原型克隆；Prototype is a creational design pattern that allows cloning objects, even complex ones, without coupling to their specific classes.</li>
+<li>Singleton：全局就一个实例；Singleton is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.</li>
+</ol>
+<h2 id="结构模式"><a href="#结构模式" class="headerlink" title="结构模式"></a>结构模式</h2><ol>
+<li>Adapter：让不兼容变为兼容；Adapter is a structural design pattern, which allows incompatible objects to collaborate.</li>
+<li>Bridge：两模块隔离可以独立变换，通过桥沟通（如前后端）；Bridge is a structural design pattern that divides business logic or huge class into separate class hierarchies that can be developed independently.</li>
+<li>Composite：将节点组合成一个树，外部使用节点时不区分节点类型；Composite is a structural design pattern that allows composing objects into a tree-like structure and work with it as if it was a singular object.</li>
+<li>Decorator：将目标放到装饰器里就可以添加目标功能；Decorator is a structural design pattern that lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.</li>
+<li>Facade：将复杂隐于内部，对外提供简洁的接口；Facade is a structural design pattern that provides a simplified interface to a library, a framework, or any other complex set of classes.</li>
+<li>Flyweight：共享元数据以节约资源；Flyweight is a structural design pattern that lets you fit more objects into the available amount of RAM by sharing common parts of state between multiple objects instead of keeping all of the data in each object.</li>
+<li>Proxy：其它人通过代理人间接访问，只有代理人直接访问；Proxy is a structural design pattern that provides an object that acts as a substitute for a real service object used by a client. A proxy receives client requests, does some work (access control, caching, etc.) and then passes the request to a service object.</li>
+</ol>
+<h2 id="行为模式"><a href="#行为模式" class="headerlink" title="行为模式"></a>行为模式</h2><ol>
+<li>ChainOfResponsibility：一个请求进入到责任链，总有一个节点能解决，外部不关心是哪个节点;Chain of Responsibility is a behavioral design pattern that lets you pass requests along a chain of handlers. Upon receiving a request, each handler decides either to process the request or to pass it to the next handler in the chain.</li>
+<li>Command：将枚举命令转换为具体对象；Command is behavioral design pattern that converts requests or simple operations into objects.</li>
+<li>Iterator：仅通过迭代器就能遍历对象，而不需要了解对象内部；Iterator is a behavioral design pattern that lets you traverse elements of a collection without exposing its underlying representation (list, stack, tree, etc.).</li>
+<li>Interpreter：用自定义语言书写逻辑，解释执行；(用写一个完整的脚本语言去深入理解)</li>
+<li>Mediator：所有人都通过调停者间接交互；Mediator is a behavioral design pattern that lets you reduce chaotic dependencies between objects. The pattern restricts direct communications between the objects and forces them to collaborate only via a mediator object.</li>
+<li>Memento：一类对象一类操作记录；Memento is a behavioral design pattern that lets you save and restore the previous state of an object without revealing the details of its implementation.</li>
+<li>Observer：观察者们要先订阅，有变更会被通知；Observer is a behavioral design pattern that allows some objects to notify other objects about changes in their state.</li>
+<li>State：状态切换，自动切换行为；State is a behavioral design pattern that allows an object to change the behavior when its internal state changes.</li>
+<li>Strategy：一个策略，多种实现，按需切换；Strategy is a behavioral design pattern that lets you define a family of algorithms, put each of them into a separate class, and make their objects interchangeable.</li>
+<li>TemplateMethod：模板步骤固定，具体步骤实现可变;Template Method is a behavioral design pattern that defines the skeleton of an algorithm in the superclass but lets subclasses override specific steps of the algorithm without changing its structure.</li>
+<li>Visitor：数据是数据，算法是算法，通过访问者接口使用不同的算法；Visitor is a behavioral design pattern that lets you separate algorithms from the objects on which they operate.</li>
+</ol>
+]]></content>
+      <categories>
+        <category>软件设计</category>
+      </categories>
+      <tags>
+        <tag>检查清单</tag>
+      </tags>
+  </entry>
 </search>

@@ -10,7 +10,15 @@
 
     <url>
         <loc>https://three-kinds.github.io/posts/checklist-for-software-design/</loc>
-        <lastmod>2023-09-16T11:44:11.871Z</lastmod>
+        <lastmod>2023-09-16T11:55:25.501Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://three-kinds.github.io/posts/checklist-for-design-patterns/</loc>
+        <lastmod>2023-09-16T11:55:25.501Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
